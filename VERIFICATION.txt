@@ -1,0 +1,13 @@
+PASS 1: notebook assertions and independent discounted-coupon formulas.
+PASS 2: pay/receive reversal, signed/scaled notionals, serialization and report totals.
+PASS 3: par swap has zero PV; a 1 bp basis move equals its discounted spread annuity.
+PASS 4: spot/forward/explicit factory dates, conventions, payment offsets and different leg frequencies.
+PASS 5: same-day settlement with observed fixings and zero PV/cash after final payment.
+PASS 6: FX collateral transformation, fair-strike cancellation and zero value at par.
+Python 3.11.17 | NumPy 1.26.4 | pandas 2.3.1 | QuantLib 1.41
+FRA PV: 87.090294206882
+RFR swap PV: -2629.679574786293
+Overnight basis swap PV: 8446.472471163957
+Par fixed rate: 0.042729685743
+
+Notebook: all 17 code cells executed successfully with no error outputs.
